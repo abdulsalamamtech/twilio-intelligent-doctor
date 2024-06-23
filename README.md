@@ -13,53 +13,129 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 
 - [Simple, fast routing engine](https://laravel.com/docs/routing).
 - [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
 
-## Learning Laravel
+## Code Exchange App Submissions
+Code Exchange is a repository that contains pre-built code samples, which expedite development with Twilio. This form allows you to submit a request to have your application added to the repo and shared publicly at twilio.com/code-exchange. We will treat your data in accordance with our Privacy Notice.
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+## About Your App
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+*App Title*
+Twilio Intelligent Doctor
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+*App Description*
+Please explain what use case this app is solving. If this is another programming language implementation for an existing use case, please copy the link here.
 
-## Laravel Sponsors
+## About
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Twilio Intelligent Doctor an AI symptoms analyzer and emergency reporter to improve healthcare system.
 
-### Premium Partners
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[WebReinvent](https://webreinvent.com/)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Jump24](https://jump24.co.uk)**
-- **[Redberry](https://redberry.international/laravel/)**
-- **[Active Logic](https://activelogic.com)**
-- **[byte5](https://byte5.de)**
-- **[OP.GG](https://op.gg)**
 
-## Contributing
+# Use case
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Scenario:
 
-## Code of Conduct
+Some healthcare center struggles with limited medical staff and resources. Patients often face delays in receiving proper medical advice when they notice some symptoms and emergency assistance.
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+
+
+## Solution for symptoms analysis:
+
+Twilio Intelligent Doctor integrates an AI-powered symptom analyzer with reporting capabilities. It allows patients to input their symptoms via a web or mobile app, which then uses AI to provide a preliminary diagnosis and recommend next steps.  it immediately notifies the nearest available medical officer or emergency agencies via Twilio's communication platform.
+
+
+
+## Solution for emergency reporting:
+
+Twilio Intelligent Doctor integrates an AI-powered emergency reporting capabilities. It allows patients to input emergency description and address via a web or mobile app, which then uses AI to provide recommendation on the type of agency to send the emergency situations. it immediately notifies the nearest available emergency agencies or services via Twilio's communication platform.
+
+
+
+It is build using Laravel framework which is build based on my ideas on how to improve healthcare and emergency system using AI.
+
+## App Structure
+
+*A brief description of your app's architecture.*
+
+Key Components:
+Controllers: Handle HTTP requests and business logic. Located in app/Http/Controllers.
+Models: Represent data structures and interact with the database. Found in app/Models.
+Routes: Define URL endpoints and map them to controllers. Defined in routes/web.php and routes/api.php.
+Middleware: Filters HTTP requests entering the application. Configured in app/Http/Middleware.
+Views: Manage HTML content. Stored in resources/views.
+Migrations: Handle database schema changes. Located in database/migrations.
+Features:
+Authentication: User registration and login functionalities.
+Twilio Integration: Utilizes Twilio for communication-related functionalities.
+API Endpoints: Expose functionalities to be consumed by frontend or other services.
+AI Model integration: Utilizes AI for more robust report and suggestions.
+Repository
+
+*The GitHub repo where your code is hosted.*
+
+[https://github.com/abdulsalamamtech/twilio-intelligent-doctor](https://github.com/abdulsalamamtech/twilio-intelligent-doctor)
+App Dependencies
+
+Please list any external dependencies for services, tools or similar this project has.
+
+PHP, Laravel, TailwindCSS, Vite, Postgres (or MySQL, SQLite) Twilio Api and Open AI Api.
+QuickDeploy / Twilio Functions?
+
+Check box if the app contains a Twilio Function template.
+
+*Programming Languages*
+- What programming language is primarily used for this app? If there's a front-end and back-end component, please list the back-end language. If the repo contains several versions of the same example in different languages, select all languages that apply.
+
+PHP
+JavaScript
+
+## About You
+*First Name*
+
+Abdulrahman
+
+*Last Name*
+Abdulsalam
+
+*GitHub Username*
+- The GitHub username you used to author this code.
+abdulsalamamtech
+
+*Email*
+abdulsalamamtech@gmail.com
+
+## Company
+
+If this app is being submitted on behalf of a company, please provide the company name.
+
+App Checklist
+Please check all that apply.
+
+My sample application is open source and has a permissive license such as MIT or Apache-2
+
+There are no known security vulnerabilities and I'm following security best practices
+
+I've read Twilio's best practices coding guidelines for my project
+
+See guidelines at [https://github.com/twilio-labs/code-exchange/tree/master/guidelines](https://github.com/twilio-labs/code-exchange/tree/master/guidelines)
+
+I agree and adhere to the Code of Conduct
+
+See Code of Conduct at [https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md](https://github.com/twilio-labs/.github/blob/master/CODE_OF_CONDUCT.md)
+
+I accept the Twilio CodeExchange Community Program Agreement
+
+See Twilio CodeExchange Community Program Agreement
+
+The template has been authored by me / or my organization and will be kept up-to-date. If the template will not longer be maintained, I'll notify this project.
+
+If you were unable to check any of the above, please provide an explanation here.
+
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within this Laravel App, please send an e-mail to Abdulsalam Abdulrahman via [abdulsalamamtech@gmail.com](mailto:abdulsalamamtech@gmail.com). All security vulnerabilities will be promptly addressed.
 
 ## License
 
